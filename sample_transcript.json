@@ -1,0 +1,118 @@
+{
+  "CustomerMetadata": {
+    "ContactId": "12345678-1234-1234-1234-123456789012",
+    "Channel": "VOICE",
+    "InstanceId": "i-12345678901234567"
+  },
+  "Participants": [
+    {
+      "ParticipantId": "AGENT",
+      "ParticipantRole": "AGENT"
+    },
+    {
+      "ParticipantId": "CUSTOMER",
+      "ParticipantRole": "CUSTOMER"
+    }
+  ],
+  "Transcript": [
+    {
+      "ParticipantId": "AGENT",
+      "ParticipantRole": "AGENT",
+      "Id": "statement-1",
+      "Content": "Thank you for calling customer service. My name is Alex. How can I help you today?",
+      "BeginOffsetMillis": 0,
+      "EndOffsetMillis": 5000,
+      "Sentiment": "NEUTRAL"
+    },
+    {
+      "ParticipantId": "CUSTOMER",
+      "ParticipantRole": "CUSTOMER",
+      "Id": "statement-2",
+      "Content": "Hi there. I'm calling because I'm having trouble with my recent order. It was supposed to arrive yesterday but I haven't received it yet.",
+      "BeginOffsetMillis": 5500,
+      "EndOffsetMillis": 12000,
+      "Sentiment": "NEGATIVE"
+    },
+    {
+      "ParticipantId": "AGENT",
+      "ParticipantRole": "AGENT",
+      "Id": "statement-3",
+      "Content": "I'm sorry to hear about the delay with your order. I'd be happy to look into this for you. Could you please provide your order number?",
+      "BeginOffsetMillis": 12500,
+      "EndOffsetMillis": 18000,
+      "Sentiment": "NEUTRAL"
+    },
+    {
+      "ParticipantId": "CUSTOMER",
+      "ParticipantRole": "CUSTOMER",
+      "Id": "statement-4",
+      "Content": "Yes, it's ABC123456.",
+      "BeginOffsetMillis": 18500,
+      "EndOffsetMillis": 20000,
+      "Sentiment": "NEUTRAL"
+    },
+    {
+      "ParticipantId": "AGENT",
+      "ParticipantRole": "AGENT",
+      "Id": "statement-5",
+      "Content": "Thank you. Let me check that for you. I can see your order was shipped on Monday, but there appears to be a delay with the carrier. According to the tracking information, it should be delivered by the end of today.",
+      "BeginOffsetMillis": 21000,
+      "EndOffsetMillis": 30000,
+      "Sentiment": "NEUTRAL"
+    },
+    {
+      "ParticipantId": "CUSTOMER",
+      "ParticipantRole": "CUSTOMER",
+      "Id": "statement-6",
+      "Content": "That's good to know. I was getting worried because I need those items for an event this weekend.",
+      "BeginOffsetMillis": 30500,
+      "EndOffsetMillis": 35000,
+      "Sentiment": "NEUTRAL"
+    },
+    {
+      "ParticipantId": "AGENT",
+      "ParticipantRole": "AGENT",
+      "Id": "statement-7",
+      "Content": "I completely understand your concern. I've added a note to your order to prioritize it. Would you like me to send you the tracking link so you can monitor the delivery?",
+      "BeginOffsetMillis": 35500,
+      "EndOffsetMillis": 42000,
+      "Sentiment": "POSITIVE"
+    },
+    {
+      "ParticipantId": "CUSTOMER",
+      "ParticipantRole": "CUSTOMER",
+      "Id": "statement-8",
+      "Content": "Yes, that would be great. Could you send it to my email?",
+      "BeginOffsetMillis": 42500,
+      "EndOffsetMillis": 45000,
+      "Sentiment": "POSITIVE"
+    },
+    {
+      "ParticipantId": "AGENT",
+      "ParticipantRole": "AGENT",
+      "Id": "statement-9",
+      "Content": "Absolutely. I've just sent the tracking link to your email address on file. Is there anything else I can help you with today?",
+      "BeginOffsetMillis": 45500,
+      "EndOffsetMillis": 50000,
+      "Sentiment": "POSITIVE"
+    },
+    {
+      "ParticipantId": "CUSTOMER",
+      "ParticipantRole": "CUSTOMER",
+      "Id": "statement-10",
+      "Content": "No, that's all. Thank you for your help.",
+      "BeginOffsetMillis": 50500,
+      "EndOffsetMillis": 52000,
+      "Sentiment": "POSITIVE"
+    },
+    {
+      "ParticipantId": "AGENT",
+      "ParticipantRole": "AGENT",
+      "Id": "statement-11",
+      "Content": "You're welcome. Thank you for calling customer service. Have a great day!",
+      "BeginOffsetMillis": 52500,
+      "EndOffsetMillis": 56000,
+      "Sentiment": "POSITIVE"
+    }
+  ]
+}

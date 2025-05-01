@@ -1,0 +1,21 @@
+
+Main reason for the call:
+The customer called because their order (ABC123456) was delayed. It was supposed to arrive yesterday but had not been received yet.
+
+Key points discussed:
+- Customer was concerned about the delay as they needed the items for an event this weekend
+- Agent confirmed the order was shipped on Monday
+- There was a delay with the carrier
+- According to tracking information, the order should be delivered by the end of the day
+
+Issues identified:
+- Shipping delay with the carrier
+- Customer anxiety about receiving items in time for weekend event
+
+Resolution or next steps:
+- Agent added a note to prioritize the order
+- Agent sent the tracking link to the customer's email
+- Customer can monitor the delivery status
+
+Follow-up actions required:
+- None specified, as the order is expected to be delivered by the end of the day
