@@ -1,6 +1,6 @@
-# Amazon Connect Transcript Summarizer
+# Amazon Connect Transcript Summarizer using Amazon Bedrock LLM
 
-This project processes Amazon Connect call transcripts stored in S3, generates summaries using Amazon Bedrock, and saves the results back to S3.
+This project processes Amazon Connect call transcripts stored in S3, generates summaries using Amazon Bedrock LLM, and saves the results back to S3.
 
 ## Features
 
