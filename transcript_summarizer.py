@@ -97,7 +97,7 @@ def generate_summary(bedrock_runtime, conversation_text):
         str: Generated summary
     """
     # Using Claude model for summarization
-    model_id = "anthropic.claude-3-7-sonnet-20250219-v1:0"  # Update with your preferred model
+    model_id = "UPDATE_MODEL_ID"  # Update with your preferred model
     
     prompt = f"""
     Below is a transcript from a customer service call. Please provide a comprehensive summary that includes:
